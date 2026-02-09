@@ -32,6 +32,15 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
 img,
 picture {
   max-width: 100%;
@@ -48,6 +57,7 @@ select {
 
 /* Remove animações para usuários que as desabilitaram */
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {
